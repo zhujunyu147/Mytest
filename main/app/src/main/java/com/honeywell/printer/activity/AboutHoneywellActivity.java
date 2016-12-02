@@ -22,6 +22,8 @@ public class AboutHoneywellActivity extends BaseCommonActivity {
     void initView() {
 
         //文案
+
+
         mTextView = (TextView) findViewById(R.id.tv);
         mImageViewBack = (ImageView) findViewById(R.id.button_back);
         mImageViewBack.setOnClickListener(new View.OnClickListener() {
