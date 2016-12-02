@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">honeywell打印机</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!--Home tab 首页的底部几个tab -->
+    <string name="title_activity_login">首页</string>
+    <string name="login_cb_save_id">我的设备</string>
+
+
+
+    <!--左侧抽屉 -->
+    <string name="drag_item_use">使用手册</string>
+    <string name="drag_item_gonggao">系統公告</string>
+    <string name="drag_item_update">版本更新</string>
+
+    <!--顶部文字显示 -->
+    <string name="tv_top1">我的打印机</string>
+    <string name="tv_top2">视频介绍</string>
+    <string name="tv_top2_">框架</string>
+    <string name="tv_top3">文字介绍</string>
+
+    <string name="change_pwd_chk_show_pwd">显示密码</string>
+    <string name="title_activity_feed_back">意见反馈</string>
+    <string name="ip_btn_cancel">取消</string>
+    <string name="ip_btn_ok">确定</string>
+    <string name="change_pwd_btnok">确定</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="settings_tv_about">关于我们</string>
+    <string name="settings_tv_change_pwd">修改密码</string>
+    <string name="settings_tv_clear_cache">清除缓存</string>
+    <string name="settings_tv_feedback">意见反馈</string>
+    <string name="settings_tv_contact_us">联系我们</string>
+    <string name="settings_tv_support">技术支持</string>
+    <string name="settings_tv_logout">退出登录</string>
+    <string name="dialog_logout_tv_logout">退出当前账号</string>
+    <string name="dialog_logout_tv_cancel">取消</string>
+    <string name="dialog_logout_tv_ok">确认退出</string>
+    <string name="title_activity_shus_mission_detail">任务详情</string>
+
+</resources>

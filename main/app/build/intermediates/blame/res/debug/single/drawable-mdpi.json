@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/debug/drawable-mdpi/add.png",
+        "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-mdpi/add.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/debug/drawable-mdpi/icon_kehu_arrow.png",
+        "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-mdpi/icon_kehu_arrow.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/debug/drawable-mdpi/refresh_succeed.png",
+        "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-mdpi/refresh_succeed.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    }
+]

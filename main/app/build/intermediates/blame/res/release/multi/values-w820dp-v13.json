@@ -1,0 +1,304 @@
+[
+    {
+        "outputFile": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 44,
+                    "endOffset": 95
+                },
+                "from": {
+                    "file": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/values-w820dp/attrs.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 729,
+                        "endColumn": 45,
+                        "endOffset": 770
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endColumn": 47,
+                    "endOffset": 143
+                },
+                "from": {
+                    "file": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/values-w820dp/attrs.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 775,
+                        "endColumn": 48,
+                        "endOffset": 819
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 148,
+                    "endColumn": 49,
+                    "endOffset": 193
+                },
+                "from": {
+                    "file": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/values-w820dp/attrs.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 824,
+                        "endColumn": 50,
+                        "endOffset": 870
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 198,
+                    "endColumn": 49,
+                    "endOffset": 243
+                },
+                "from": {
+                    "file": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/values-w820dp/attrs.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 875,
+                        "endColumn": 50,
+                        "endOffset": 921
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 248,
+                    "endLine": 19,
+                    "endColumn": 24,
+                    "endOffset": 790
+                },
+                "from": {
+                    "file": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/values-w820dp/attrs.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 173,
+                        "endLine": 19,
+                        "endColumn": 24,
+                        "endOffset": 723
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 795,
+                    "endLine": 22,
+                    "endColumn": 24,
+                    "endOffset": 921
+                },
+                "from": {
+                    "file": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/values-w820dp/attrs.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 2580,
+                        "endLine": 61,
+                        "endColumn": 24,
+                        "endOffset": 2707
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 926,
+                    "endLine": 39,
+                    "endColumn": 24,
+                    "endOffset": 1701
+                },
+                "from": {
+                    "file": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/values-w820dp/attrs.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 1793,
+                        "endLine": 58,
+                        "endColumn": 24,
+                        "endOffset": 2575
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 1706,
+                    "endLine": 43,
+                    "endColumn": 24,
+                    "endOffset": 1876
+                },
+                "from": {
+                    "file": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/values-w820dp/attrs.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 2712,
+                        "endLine": 65,
+                        "endColumn": 24,
+                        "endOffset": 2884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 1881,
+                    "endLine": 46,
+                    "endColumn": 24,
+                    "endOffset": 1992
+                },
+                "from": {
+                    "file": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/values-w820dp/attrs.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endLine": 5,
+                        "endColumn": 24,
+                        "endOffset": 168
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 1997,
+                    "endLine": 62,
+                    "endColumn": 24,
+                    "endOffset": 2851
+                },
+                "from": {
+                    "file": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/values-w820dp/attrs.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 927,
+                        "endLine": 41,
+                        "endColumn": 24,
+                        "endOffset": 1788
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 2856,
+                    "endColumn": 57,
+                    "endOffset": 2909
+                },
+                "from": {
+                    "file": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 57,
+                        "endOffset": 348
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 2914,
+                    "endColumn": 38,
+                    "endOffset": 2948
+                },
+                "from": {
+                    "file": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/values-w820dp/ids.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 38,
+                        "endOffset": 89
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 2953,
+                    "endColumn": 41,
+                    "endOffset": 2990
+                },
+                "from": {
+                    "file": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/values-w820dp/ids.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 94,
+                        "endColumn": 41,
+                        "endOffset": 131
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 2995,
+                    "endColumn": 44,
+                    "endOffset": 3035
+                },
+                "from": {
+                    "file": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/values-w820dp/ids.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 177,
+                        "endColumn": 44,
+                        "endOffset": 217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 3040,
+                    "endColumn": 40,
+                    "endOffset": 3076
+                },
+                "from": {
+                    "file": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/values-w820dp/ids.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 136,
+                        "endColumn": 40,
+                        "endOffset": 172
+                    }
+                }
+            }
+        ]
+    }
+]

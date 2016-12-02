@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/line_unLinked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tab_layout_default_height"
+            android:text="当前没有连接设备，请点击扫描连接"
+            android:textColor="@color/red" />
+
+        <Button
+            android:id="@+id/btn_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/indicator_marginleft"
+            android:background="@color/blue_bg"
+            android:text="连接"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_linked_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tab_layout_default_height"
+            android:text="连接过的打印机设备"
+            android:textColor="@color/black" />
+
+        <ListView
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:id="@+id/linked_printer_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line_scan_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tab_layout_default_height"
+            android:text="扫描成功"
+            android:textColor="@color/black" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/tab_layout_default_height"
+                android:text="设备的Mac地址："
+                android:textSize="15dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/device_mac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginTop="@dimen/tab_layout_default_height"
+                android:text="XX:XX:XX:XX"
+                android:textColor="@color/lightskyblue"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_marginTop="@dimen/tab_layout_default_height"
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:text="点击上面的地址进行连接" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/line_scaned"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_scaned_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tab_layout_default_height"
+            android:text="连接中。。。"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_link_ing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/indicator_marginleft"
+            android:background="@color/blue_bg"
+            android:text="正在连接。。。"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/line_success"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_link_success"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tab_layout_default_height"
+                android:text="连接成功，可以如下操作"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_system_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/indicator_marginleft"
+                android:background="@color/blue_bg"
+                android:text="查看系统信息"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_param_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/indicator_marginleft"
+                android:background="@color/blue_bg"
+                android:text="参数查询"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_param_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/indicator_marginleft"
+                android:background="@color/blue_bg"
+                android:text="参数设置"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_restart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/indicator_marginleft"
+                android:background="@color/blue_bg"
+                android:text="一键复位"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_configuration_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/indicator_marginleft"
+                android:background="@color/blue_bg"
+                android:text="配置信息保存"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_configuration_save_load"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/indicator_marginleft"
+                android:background="@color/blue_bg"
+                android:text="配置信息加载"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_print_pic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/indicator_marginleft"
+                android:background="@color/blue_bg"
+                android:text="图片的打印"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/btn_print_defalt_pic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/indicator_marginleft"
+                android:background="@color/blue_bg"
+                android:text="打印配置页"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/btn_print_Medium_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/indicator_marginleft"
+                android:background="@color/blue_bg"
+                android:text="介质检查"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

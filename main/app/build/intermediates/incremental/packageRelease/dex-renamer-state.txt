@@ -1,0 +1,4 @@
+#Wed Nov 30 15:42:49 CST 2016
+base.0=/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex

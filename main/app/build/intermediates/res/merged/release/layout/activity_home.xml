@@ -1,0 +1,26 @@
+<com.honeywell.printer.libs.DragLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dl"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/wxtong_leftmenu" />
+
+    <com.honeywell.printer.libs.MyRelativeLayout
+        android:id="@+id/rl_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eeeeee"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/tab_bar_fragment"
+            class="com.honeywell.printer.tabhost.TabFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true" />
+    </com.honeywell.printer.libs.MyRelativeLayout>
+
+</com.honeywell.printer.libs.DragLayout>
