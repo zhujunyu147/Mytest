@@ -1,10 +1,18 @@
 [
     {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/debug/raw/data.properties",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/raw/data.properties"
+    },
+    {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/debug/raw/data.properties",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/raw/data.properties"
     },
     {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/debug/raw/beep.ogg",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/raw/beep.ogg"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/debug/raw/beep.ogg",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/raw/beep.ogg"
     }
 ]

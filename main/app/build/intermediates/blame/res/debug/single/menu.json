@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/debug/menu/home.xml",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/menu/home.xml"
+    },
+    {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/debug/menu/home.xml",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/menu/home.xml"
     }

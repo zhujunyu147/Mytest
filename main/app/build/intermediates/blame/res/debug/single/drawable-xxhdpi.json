@@ -1,11 +1,27 @@
 [
     {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_iv_face_juxing.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-xxhdpi/icon_iv_face_juxing.png"
+    },
+    {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_kehu_arrow.png",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-xxhdpi/icon_kehu_arrow.png"
     },
     {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/debug/drawable-xxhdpi/add.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-xxhdpi/add.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/debug/drawable-xxhdpi/top_background.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-xxhdpi/top_background.png"
+    },
+    {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_kehu_arrow.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-xxhdpi/icon_kehu_arrow.png"
     },
     {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_tv_face_juxing.png",
@@ -24,15 +40,35 @@
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-xxhdpi/icon_tv_face_yuan.png"
     },
     {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_iv_face_yuan.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-xxhdpi/icon_iv_face_yuan.png"
+    },
+    {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/debug/drawable-xxhdpi/arrow_right.png",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-xxhdpi/arrow_right.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/debug/drawable-xxhdpi/arrow_right.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-xxhdpi/arrow_right.png"
     },
     {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/debug/drawable-xxhdpi/top_background.png",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-xxhdpi/top_background.png"
     },
     {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_tv_face_juxing.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-xxhdpi/icon_tv_face_juxing.png"
+    },
+    {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/debug/drawable-xxhdpi/add.png",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-xxhdpi/add.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_tv_face_yuan.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-xxhdpi/icon_tv_face_yuan.png"
     }
 ]
