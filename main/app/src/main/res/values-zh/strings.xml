@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">honeywell打印机</string>
+    <string name="action_settings">Settings</string>
+
+    <!--左侧抽屉 -->
+    <string name="drag_item_hw">Honeywell</string>
+    <string name="drag_item_hw_printer">Honeywell 打印机</string>
+    <string name="drag_item_about_Hw">关于Honeywell</string>
+    <string name="drag_item_update">版本更新</string>
+
+    <!--顶部导航文字 -->
+    <string name="tv_top1">我的打印机</string>
+    <string name="tv_top2">视频介绍</string>
+    <string name="tv_top3">文字介绍</string>
+
+    <!--底部导航文字 -->
+    <string name="tv_bottom1">主页</string>
+    <string name="tv_bottom2">搜索设备</string>
+    <string name="tv_bottom3">关于设备</string>
+    <!--dialog -->
+    <string name="exit_dialog_title">确定要退出吗？</string>
+    <string name="exit_dialog_sure">确定</string>
+    <string name="exit_dialog_cancel">取消</string>
+
+    <string name="link_dialog_select_model">请选择连接模式</string>
+    <string name="link_dialog_title">提示</string>
+    <string name="link_dialog_wifi">WIFI</string>
+    <string name="link_dialog_bt">蓝牙</string>
+
+    <string name="save_dialog_config">保存当前的参数配置</string>
+    <string name="save_dialog_title">提示</string>
+    <string name="save_dialog_sure">确定</string>
+    <string name="save_dialog_cancel">取消</string>
+
+    <string name="load_dialog_config">请选择您要加载的配置文件</string>
+    <string name="load_dialog_title">提示</string>
+    <string name="load_dialog_sure">确定</string>
+    <string name="load_dialog_cancel">取消</string>
+
+    <string name="exit_wifi_mode">退出WIFI连接模式？</string>
+    <string name="exit_wifi_title">提示</string>
+    <string name="exit_wifi_sure">确定</string>
+    <string name="exit_wifi_cancel">取消</string>
+
+    <!--Toast-->
+    <string name="no_update_toast">当前为Demo版本，暂无更新</string>
+    <string name="bluetooth_unable_toast">蓝牙不可用</string>
+
+    <!-- detail before link-->
+    <string name="bt_open_wifi">打开wifi</string>
+    <string name="bt_input_ip_address">请输入ip地址</string>
+    <string name="bt_link_device">连接打印机</string>
+    <string name="bluetooth_scan_tip">当前没有连接设备，请点击扫描连接</string>
+    <string name="bluetooth_link">连接</string>
+    <string name="bluetooth_linked_device">连接过的打印机</string>
+    <!-- detail scan success-->
+    <string name="scan_success">扫描成功</string>
+    <string name="bluetooth_address">设备的Mac地址：</string>
+    <string name="bluetooth_onclick_link">点击上面的地址进行连接</string>
+    <!-- detail linking-->
+    <string name="bt_link">连接中。。。</string>
+    <string name="bt_link_now">正在连接。。。</string>
+    <!-- detail link success-->
+    <string name="bt_link_success">连接成功，可以如下操作</string>
+    <string name="bt_scan_system_info">查看系统信息</string>
+    <string name="bt_scan_config">参数查询</string>
+    <string name="bt_set_config">参数设置</string>
+    <string name="bt_one_key_reset">一键复位</string>
+    <string name="bt_save_config">配置信息保存</string>
+    <string name="bt_load_config">配置信息加载</string>
+    <string name="bt_print_pic">打印图片</string>
+    <string name="bt_print_config">打印配置页</string>
+    <string name="bt_print_wifi_config">打印无线配置页</string>
+    <string name="bt_medium_check">介质检查</string>
+
+</resources>

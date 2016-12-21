@@ -36,6 +36,7 @@
             android:name="com.honeywell.printer.activity.HomeActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask"
+            android:screenOrientation="portrait"
             android:theme="@style/StyledIndicators" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,10 +44,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.honeywell.printer.activity.PrinterSystemInfoActivity" />
-        <activity android:name="com.honeywell.printer.activity.PrinterConfigActivity" />
-        <activity android:name="com.honeywell.printer.activity.AboutHoneywellActivity" />
-        <activity android:name="com.honeywell.printer.activity.PrinterWifiActivity" />
+        <activity
+            android:name="com.honeywell.printer.activity.PrinterSystemInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeywell.printer.activity.PrinterConfigActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeywell.printer.activity.AboutHoneywellActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeywell.printer.activity.PrinterWifiActivity"
+            android:screenOrientation="portrait" />
         <activity android:name="com.honeywell.cube.qrcode.CaptureActivity" />
         <activity android:name="com.honeywell.cube.qrcode.CaptureInputActivity" />
     </application>

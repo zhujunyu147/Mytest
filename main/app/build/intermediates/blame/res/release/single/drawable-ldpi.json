@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/drawable-ldpi/rbn_wang_pressed.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-ldpi/rbn_wang_pressed.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/drawable-ldpi/rbn_wang_normal.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-ldpi/rbn_wang_normal.png"
+    },
+    {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/drawable-ldpi/rbn_shu_pressed.png",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-ldpi/rbn_shu_pressed.png"
     },
@@ -20,6 +28,10 @@
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-ldpi/rbn_yu_normal.png"
     },
     {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/drawable-ldpi/add.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-ldpi/add.png"
+    },
+    {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/drawable-ldpi/refresh_succeed.png",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-ldpi/refresh_succeed.png"
     },
@@ -28,15 +40,43 @@
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-ldpi/rbn_yu_pressed.png"
     },
     {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/drawable-ldpi/rbn_yu_normal.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-ldpi/rbn_yu_normal.png"
+    },
+    {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/drawable-ldpi/rbn_shu_normal.png",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-ldpi/rbn_shu_normal.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/drawable-ldpi/top_background.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-ldpi/top_background.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/drawable-ldpi/icon_kehu_arrow.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-ldpi/icon_kehu_arrow.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/drawable-ldpi/rbn_yu_pressed.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-ldpi/rbn_yu_pressed.png"
     },
     {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/drawable-ldpi/rbn_wang_normal.png",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-ldpi/rbn_wang_normal.png"
     },
     {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/drawable-ldpi/rbn_shu_pressed.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-ldpi/rbn_shu_pressed.png"
+    },
+    {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/drawable-ldpi/top_background.png",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-ldpi/top_background.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/drawable-ldpi/refresh_succeed.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-ldpi/refresh_succeed.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/drawable-ldpi/rbn_shu_normal.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-ldpi/rbn_shu_normal.png"
     }
 ]

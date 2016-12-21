@@ -1,7 +1,7 @@
 [
     {
-        "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/scan_qr.png",
-        "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/scan_qr.png"
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/mmtitle_bg_alpha.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/mmtitle_bg_alpha.png"
     },
     {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/right.png",
@@ -12,20 +12,12 @@
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/ic_launcher.png"
     },
     {
-        "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/scan_store_hl.png",
-        "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/scan_store_hl.png"
-    },
-    {
-        "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/qrcode_scan_line.png",
-        "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/qrcode_scan_line.png"
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/scan_btombar_bg.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/scan_btombar_bg.png"
     },
     {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/mm_title_back_pressed.png",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/mm_title_back_pressed.png"
-    },
-    {
-        "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/mmtitle_bg_alpha.png",
-        "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/mmtitle_bg_alpha.png"
     },
     {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/qrcode_image.png",
@@ -40,6 +32,18 @@
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/mm_title_back_focused.png"
     },
     {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/scan_store_hl.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/scan_store_hl.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/scan_book_hl.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/scan_book_hl.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/scan_qr_hl.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/scan_qr_hl.png"
+    },
+    {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/onecord_image.png",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/onecord_image.png"
     },
@@ -48,16 +52,76 @@
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/scan_store.png"
     },
     {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/nav_back_normal.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/nav_back_normal.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/right.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/right.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/scan_qr.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/scan_qr.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/scan_book.png",
+        "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/scan_book.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/qrcode_image.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/qrcode_image.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/onecord_image.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/onecord_image.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/scan_qr.png",
+        "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/scan_qr.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/mm_title_back_focused.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/mm_title_back_focused.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/scan_store.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/scan_store.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/scan_store_hl.png",
+        "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/scan_store_hl.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/qrcode_scan_line.png",
+        "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/qrcode_scan_line.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/mmtitle_bg_alpha.png",
+        "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/mmtitle_bg_alpha.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/qrcode_scan_line.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/qrcode_scan_line.png"
+    },
+    {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/mm_title_back_normal.png",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/mm_title_back_normal.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/scan_book.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/scan_book.png"
     },
     {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/scan_qr_hl.png",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/scan_qr_hl.png"
     },
     {
-        "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/scan_book.png",
-        "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/scan_book.png"
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/mm_title_back_normal.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/mm_title_back_normal.png"
     },
     {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/nav_back_normal.png",
@@ -66,5 +130,9 @@
     {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/scan_book_hl.png",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/scan_book_hl.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/mipmap-mdpi-v4/mm_title_back_pressed.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/res/mipmap-mdpi-v4/mm_title_back_pressed.png"
     }
 ]

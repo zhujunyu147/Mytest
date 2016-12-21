@@ -84,6 +84,7 @@ public class MyPrinterDeviceFragment extends MyFragment implements OnItemClickLi
     private Button mBtnConfigSaveLoad;
     private Button mBtnPicPrinter;
     private Button mBtnPrintConfig;
+    private Button mBtnPrintWifiConfig;
     private Button mBtnMediumcheck;
 
 
@@ -150,6 +151,8 @@ public class MyPrinterDeviceFragment extends MyFragment implements OnItemClickLi
         mBtnPicPrinter.setOnClickListener(this);
         mBtnPrintConfig = (Button) view.findViewById(R.id.btn_print_defalt_pic);
         mBtnPrintConfig.setOnClickListener(this);
+        mBtnPrintWifiConfig = (Button) view.findViewById(R.id.btn_print_wifi_config);
+        mBtnPrintWifiConfig.setOnClickListener(this);
         mBtnMediumcheck = (Button) view.findViewById(R.id.btn_print_Medium_check);
         mBtnMediumcheck.setOnClickListener(this);
     }
@@ -186,7 +189,7 @@ public class MyPrinterDeviceFragment extends MyFragment implements OnItemClickLi
                     }
                     showLoadingDialog();
                     if (HomeActivity.getBluetoothService().isAvailable() == false) {
-                        Toast.makeText(getActivity(), "蓝牙不可用", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), getString(R.string.bluetooth_unable_toast), Toast.LENGTH_SHORT).show();
                         dismissLoadingDialog();
                     }
 
@@ -211,9 +214,9 @@ public class MyPrinterDeviceFragment extends MyFragment implements OnItemClickLi
 
 
             CustomDialog.Builder builder = new CustomDialog.Builder(getActivity());
-            builder.setMessage("请选择连接模式");
-            builder.setTitle("提示");
-            builder.setPositiveButton("WIFI", new DialogInterface.OnClickListener() {
+            builder.setMessage(getString(R.string.link_dialog_select_model));
+            builder.setTitle(getString(R.string.link_dialog_title));
+            builder.setPositiveButton(getString(R.string.link_dialog_wifi), new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
                     Intent intent = new Intent(getActivity(), PrinterWifiActivity.class);
@@ -221,7 +224,7 @@ public class MyPrinterDeviceFragment extends MyFragment implements OnItemClickLi
                     dialogInterface.dismiss();
                 }
             });
-            builder.setNegativeButton("蓝牙", new DialogInterface.OnClickListener() {
+            builder.setNegativeButton(getString(R.string.link_dialog_bt), new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
                     Intent intent = new Intent(getActivity(), CaptureActivity.class);
@@ -252,10 +255,10 @@ public class MyPrinterDeviceFragment extends MyFragment implements OnItemClickLi
             String fileName = FileUtil.getConfigPath(getActivity());
 
             CustomDialog.Builder builder = new CustomDialog.Builder(getActivity());
-            builder.setMessage("保存当前的参数配置");
-            builder.setTitle("提示");
+            builder.setMessage(getString(R.string.save_dialog_config));
+            builder.setTitle(getString(R.string.save_dialog_title));
             builder.setOrignalData(fileName);
-            builder.setPositiveButton("确定", new CustomDialog.Builder.DialogPostiveInterface() {
+            builder.setPositiveButton(getString(R.string.save_dialog_sure), new CustomDialog.Builder.DialogPostiveInterface() {
                 @Override
                 public void callBack(DialogInterface dialogInterface, String name) {
                     dialogInterface.dismiss();
@@ -264,7 +267,7 @@ public class MyPrinterDeviceFragment extends MyFragment implements OnItemClickLi
 
                 }
             });
-            builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+            builder.setNegativeButton(getString(R.string.save_dialog_cancel), new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
                     dialogInterface.dismiss();
@@ -274,9 +277,9 @@ public class MyPrinterDeviceFragment extends MyFragment implements OnItemClickLi
 
         } else if (view == mBtnConfigSaveLoad) {
             CustomDialog.Builder builder = new CustomDialog.Builder(getActivity());
-            builder.setMessage("请选择您要加载的配置文件");
-            builder.setTitle("提示");
-            builder.setPositiveButton("确定", new CustomDialog.Builder.DialogPostiveInterface() {
+            builder.setMessage(getString(R.string.load_dialog_config));
+            builder.setTitle(getString(R.string.save_dialog_title));
+            builder.setPositiveButton(getString(R.string.load_dialog_sure), new CustomDialog.Builder.DialogPostiveInterface() {
                 @Override
                 public void callBack(DialogInterface dialogInterface, String name) {
                     dialogInterface.dismiss();
@@ -285,7 +288,7 @@ public class MyPrinterDeviceFragment extends MyFragment implements OnItemClickLi
                     XmlUtil.startConnect(getActivity(), CommondEvent.CommondExcuter.UPLOAD_CONFIG_COMMOND);
                 }
             });
-            builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+            builder.setNegativeButton(getString(R.string.load_dialog_cancel), new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
                     dialogInterface.dismiss();
@@ -302,6 +305,9 @@ public class MyPrinterDeviceFragment extends MyFragment implements OnItemClickLi
 
             showLoadingDialog();
             XmlUtil.startConnect(getActivity(), CommondEvent.CommondExcuter.PRINT_CONFIG);
+        } else if (view == mBtnPrintWifiConfig) {
+            showLoadingDialog();
+            XmlUtil.startConnect(getActivity(), CommondEvent.CommondExcuter.PRINT_WIFI_CONFIG);
         } else if (view == mBtnMediumcheck) {
             showLoadingDialog();
             XmlUtil.startConnect(getActivity(), CommondEvent.CommondExcuter.MEDIUM_CHECK);
@@ -416,7 +422,9 @@ public class MyPrinterDeviceFragment extends MyFragment implements OnItemClickLi
 //                    XmlUtil.picPrinterCommond(getActivity(), CommondEvent.CommondExcuter.PIC_PRINTER);
                 } else if (commondEvent.excuter == CommondEvent.CommondExcuter.PRINT_CONFIG) {
                     XmlUtil.printConfig(getActivity(), CommondEvent.CommondExcuter.PRINT_CONFIG);
-                } else if (commondEvent.excuter == CommondEvent.CommondExcuter.MEDIUM_CHECK) {
+                } else  if(commondEvent.excuter == CommondEvent.CommondExcuter.PRINT_WIFI_CONFIG){
+                    XmlUtil.printWifiConfig(getActivity(), CommondEvent.CommondExcuter.PRINT_WIFI_CONFIG);
+                }else if (commondEvent.excuter == CommondEvent.CommondExcuter.MEDIUM_CHECK) {
                     XmlUtil.mediumCheck(getActivity(), CommondEvent.CommondExcuter.MEDIUM_CHECK);
                 }
             } else if (commondEvent.state == CommondEvent.CommondExcudeState.CNN_FAILED) {
@@ -459,7 +467,13 @@ public class MyPrinterDeviceFragment extends MyFragment implements OnItemClickLi
             } else if (commondEvent.state == CommondEvent.CommondExcudeState.PRINT_CONFIG_FAILED) {
                 dismissLoadingDialog();
                 Log.e("eventBus", "PRINT_CONFIG_FAILED");
-            } else if (commondEvent.state == CommondEvent.CommondExcudeState.MEDIUM_CHECK_SUCCESS) {
+            } else if (commondEvent.state == CommondEvent.CommondExcudeState.PRINT_WIFI_CONFIG_SUCCESS) {
+                dismissLoadingDialog();
+                Log.e("eventBus", "PRINT_WIFI_CONFIG_SUCCESS");
+            } else if (commondEvent.state == CommondEvent.CommondExcudeState.PRINT_WIFI_CONFIG_FAILED) {
+                dismissLoadingDialog();
+                Log.e("eventBus", "PRINT_WIFI_CONFIG_FAILED");
+            }else if (commondEvent.state == CommondEvent.CommondExcudeState.MEDIUM_CHECK_SUCCESS) {
                 dismissLoadingDialog();
                 Log.e("eventBus", "MEDIUM_CHECK_SUCCESS");
             } else if (commondEvent.state == CommondEvent.CommondExcudeState.MEDIUM_CHECK_FAILED) {
@@ -484,7 +498,7 @@ public class MyPrinterDeviceFragment extends MyFragment implements OnItemClickLi
                     return;
                 }
                 Intent intent = new Intent(getActivity(), PrinterConfigActivity.class);
-                intent.putExtra("type",Const.BLUETOOTH_TYPE);
+                intent.putExtra("type", Const.BLUETOOTH_TYPE);
                 intent.putExtra("status_list", (Serializable) mBaseItemList);
                 startActivity(intent);
             }

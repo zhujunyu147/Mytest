@@ -15,12 +15,14 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.honeywell.printer.R;
+import com.honeywell.printer.dom4parse.XmlUtil;
 import com.honeywell.printer.dom4parse.XmlWifiUtil;
 import com.honeywell.printer.model.BaseItem;
 import com.honeywell.printer.service.SocketService;
 import com.honeywell.printer.task.SwitchPicTask;
 import com.honeywell.printer.util.Const;
 import com.honeywell.printer.util.FileUtil;
+import com.honeywell.printer.util.events.CommondEvent;
 import com.honeywell.printer.util.events.CommondWifiEvent;
 import com.honeywell.printer.util.events.ConnectWifiEvent;
 import com.honeywell.printer.util.events.PrinterEvent;
@@ -52,6 +54,7 @@ public class PrinterWifiActivity extends BaseCommonActivity implements View.OnCl
     private Button mBtnConfigSaveLoad;
     private Button mBtnPicPrinter;
     private Button mBtnPrintConfig;
+    private Button mBtnPrintWifiConfig;
     private Button mBtnMediumcheck;
     private String configUploadName;
 
@@ -85,6 +88,8 @@ public class PrinterWifiActivity extends BaseCommonActivity implements View.OnCl
         mBtnPicPrinter.setOnClickListener(this);
         mBtnPrintConfig = (Button) findViewById(R.id.btn_print_defalt_pic);
         mBtnPrintConfig.setOnClickListener(this);
+        mBtnPrintWifiConfig = (Button) findViewById(R.id.btn_print_wifi_config);
+        mBtnPrintWifiConfig.setOnClickListener(this);
         mBtnMediumcheck = (Button) findViewById(R.id.btn_print_Medium_check);
         mBtnMediumcheck.setOnClickListener(this);
 
@@ -146,10 +151,10 @@ public class PrinterWifiActivity extends BaseCommonActivity implements View.OnCl
             String fileName = FileUtil.getConfigPath(this);
 
             CustomDialog.Builder builder = new CustomDialog.Builder(this);
-            builder.setMessage("保存当前的参数配置");
-            builder.setTitle("提示");
+            builder.setMessage(getString(R.string.save_dialog_config));
+            builder.setTitle(getString(R.string.save_dialog_title));
             builder.setOrignalData(fileName);
-            builder.setPositiveButton("确定", new CustomDialog.Builder.DialogPostiveInterface() {
+            builder.setPositiveButton(getString(R.string.save_dialog_sure), new CustomDialog.Builder.DialogPostiveInterface() {
                 @Override
                 public void callBack(DialogInterface dialogInterface, String name) {
                     dialogInterface.dismiss();
@@ -158,7 +163,7 @@ public class PrinterWifiActivity extends BaseCommonActivity implements View.OnCl
 
                 }
             });
-            builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+            builder.setNegativeButton(getString(R.string.save_dialog_cancel), new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
                     dialogInterface.dismiss();
@@ -168,9 +173,9 @@ public class PrinterWifiActivity extends BaseCommonActivity implements View.OnCl
 
         } else if (view == mBtnConfigSaveLoad) {
             CustomDialog.Builder builder = new CustomDialog.Builder(this);
-            builder.setMessage("请选择您要加载的配置文件");
-            builder.setTitle("提示");
-            builder.setPositiveButton("确定", new CustomDialog.Builder.DialogPostiveInterface() {
+            builder.setMessage(getString(R.string.load_dialog_config));
+            builder.setTitle(getString(R.string.save_dialog_title));
+            builder.setPositiveButton(getString(R.string.load_dialog_sure), new CustomDialog.Builder.DialogPostiveInterface() {
                 @Override
                 public void callBack(DialogInterface dialogInterface, String name) {
                     dialogInterface.dismiss();
@@ -179,7 +184,7 @@ public class PrinterWifiActivity extends BaseCommonActivity implements View.OnCl
                     XmlWifiUtil.startConnect(PrinterWifiActivity.this, CommondWifiEvent.CommondExcuter.UPLOAD_CONFIG_COMMOND);
                 }
             });
-            builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+            builder.setNegativeButton(getString(R.string.load_dialog_cancel), new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
                     dialogInterface.dismiss();
@@ -193,9 +198,11 @@ public class PrinterWifiActivity extends BaseCommonActivity implements View.OnCl
                     android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);//调用android的图库
             startActivityForResult(intent, HomeActivity.REQUEST_IMAGE_WIFI_CODE);
         } else if (view == mBtnPrintConfig) {
-
             showLoadingDialog();
             XmlWifiUtil.startConnect(this, CommondWifiEvent.CommondExcuter.PRINT_CONFIG);
+        } else if (view == mBtnPrintWifiConfig) {
+            showLoadingDialog();
+            XmlWifiUtil.startConnect(this, CommondWifiEvent.CommondExcuter.PRINT_WIFI_CONFIG);
         } else if (view == mBtnMediumcheck) {
             showLoadingDialog();
             XmlWifiUtil.startConnect(this, CommondWifiEvent.CommondExcuter.MEDIUM_CHECK);
@@ -208,16 +215,16 @@ public class PrinterWifiActivity extends BaseCommonActivity implements View.OnCl
 
         if (keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0) {
             CustomDialog.Builder builder = new CustomDialog.Builder(this);
-            builder.setMessage("退出WIFI连接模式？");
-            builder.setTitle("提示");
-            builder.setPositiveButton("确定", new DialogInterface.OnClickListener() {
+            builder.setMessage(getString(R.string.exit_wifi_mode));
+            builder.setTitle(getString(R.string.exit_wifi_title));
+            builder.setPositiveButton(getString(R.string.exit_wifi_sure), new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int which) {
                     dialogInterface.dismiss();
                     finish();
                 }
             });
-            builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+            builder.setNegativeButton(getString(R.string.exit_wifi_cancel), new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
                     dialogInterface.dismiss();
@@ -321,7 +328,9 @@ public class PrinterWifiActivity extends BaseCommonActivity implements View.OnCl
 
                     XmlWifiUtil.printConfig(this, CommondWifiEvent.CommondExcuter.PRINT_CONFIG);
 
-                } else if (commondEvent.excuter == CommondWifiEvent.CommondExcuter.MEDIUM_CHECK) {
+                } else  if(commondEvent.excuter == CommondWifiEvent.CommondExcuter.PRINT_WIFI_CONFIG){
+                    XmlWifiUtil.printWifiConfig(this, CommondWifiEvent.CommondExcuter.PRINT_WIFI_CONFIG);
+                }else if (commondEvent.excuter == CommondWifiEvent.CommondExcuter.MEDIUM_CHECK) {
 
                     XmlWifiUtil.mediumCheck(this, CommondWifiEvent.CommondExcuter.MEDIUM_CHECK);
 
@@ -366,7 +375,13 @@ public class PrinterWifiActivity extends BaseCommonActivity implements View.OnCl
             } else if (commondEvent.state == CommondWifiEvent.CommondExcudeState.PRINT_CONFIG_FAILED) {
                 dismissLoadingDialog();
                 Log.e("eventBus", "PRINT_CONFIG_FAILED");
-            } else if (commondEvent.state == CommondWifiEvent.CommondExcudeState.MEDIUM_CHECK_SUCCESS) {
+            } else if (commondEvent.state == CommondWifiEvent.CommondExcudeState.PRINT_WIFI_CONFIG_SUCCESS) {
+                dismissLoadingDialog();
+                Log.e("eventBus", "PRINT_WIFI_CONFIG_SUCCESS");
+            } else if (commondEvent.state == CommondWifiEvent.CommondExcudeState.PRINT_WIFI_CONFIG_FAILED) {
+                dismissLoadingDialog();
+                Log.e("eventBus", "PRINT_WIFI_CONFIG_FAILED");
+            }else if (commondEvent.state == CommondWifiEvent.CommondExcudeState.MEDIUM_CHECK_SUCCESS) {
                 dismissLoadingDialog();
                 Log.e("eventBus", "MEDIUM_CHECK_SUCCESS");
             } else if (commondEvent.state == CommondWifiEvent.CommondExcudeState.MEDIUM_CHECK_FAILED) {

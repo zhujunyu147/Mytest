@@ -97,11 +97,11 @@ public class HomeActivity extends BaseActivity {
         menuListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                if(i == 0){
-                    Intent intent = new Intent(HomeActivity.this,AboutHoneywellActivity.class);
+                if (i == 0) {
+                    Intent intent = new Intent(HomeActivity.this, AboutHoneywellActivity.class);
                     startActivity(intent);
-                }else if(i == 1){
-                    Toast.makeText(HomeActivity.this,"当前为Demo版本，暂无更新",Toast.LENGTH_LONG).show();
+                } else if (i == 1) {
+                    Toast.makeText(HomeActivity.this, HomeActivity.this.getResources().getString(R.string.no_update_toast), Toast.LENGTH_LONG).show();
                 }
             }
         });
@@ -126,14 +126,14 @@ public class HomeActivity extends BaseActivity {
         {// 首页
             mHomeFragment = new HomeFragment();
             final TabMode tabMode = new TabMode(HOME_TAB, R.drawable.tab_1_selector,
-                    "主页", R.color.tab_text_color_selector, mHomeFragment, code == 1);
+                    this.getResources().getString(R.string.tv_bottom1), R.color.tab_text_color_selector, mHomeFragment, code == 1);
             listTabModes.add(tabMode);
         }
 
         {// 搜索
             mSearchPrinterFragment = new SearchPrinterFragment();
             final TabMode tabMode = new TabMode(SEARCH_TAB, R.drawable.tab_2_selector,
-                    "搜索设备", R.color.tab_text_color_selector, mSearchPrinterFragment, code == 2);//
+                    this.getResources().getString(R.string.tv_bottom2), R.color.tab_text_color_selector, mSearchPrinterFragment, code == 2);//
             listTabModes.add(tabMode);
 
         }
@@ -141,7 +141,7 @@ public class HomeActivity extends BaseActivity {
         {// 消息
             mInfomationFragment = new InfomationFragment();
             final TabMode tabMode = new TabMode(HOME_TAB_MESSAGE, R.drawable.tab_3_selector,
-                    "关于设备", R.color.tab_text_color_selector, mInfomationFragment, code == 3);
+                    this.getResources().getString(R.string.tv_bottom3), R.color.tab_text_color_selector, mInfomationFragment, code == 3);
             listTabModes.add(tabMode);
         }
 
@@ -213,13 +213,13 @@ public class HomeActivity extends BaseActivity {
         Map<String, Object> item;
 
         item = new HashMap<String, Object>();
-        item.put("item", "关于honeywell");
+        item.put("item", this.getResources().getString(R.string.drag_item_about_Hw));
         item.put("image", R.drawable.ic_launcher);
         item.put("iv", R.drawable.icon_kehu_arrow);
         data.add(item);
 
         item = new HashMap<String, Object>();
-        item.put("item", "版本更新");
+        item.put("item", this.getResources().getString(R.string.drag_item_update));
         item.put("image", R.drawable.ic_launcher);
         item.put("iv", R.drawable.icon_kehu_arrow);
         data.add(item);
@@ -251,9 +251,9 @@ public class HomeActivity extends BaseActivity {
 
         if (keyCode == KeyEvent.KEYCODE_BACK) {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setMessage("确定要退出吗？")
+            builder.setMessage(HomeActivity.this.getResources().getString(R.string.exit_dialog_title))
                     .setCancelable(false)
-                    .setPositiveButton("确定",
+                    .setPositiveButton(HomeActivity.this.getResources().getString(R.string.exit_dialog_sure),
                             new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog,
                                                     int id) {
@@ -267,7 +267,7 @@ public class HomeActivity extends BaseActivity {
 //                                    startActivity(intent);
                                 }
                             })
-                    .setNegativeButton("取消",
+                    .setNegativeButton(HomeActivity.this.getResources().getString(R.string.exit_dialog_cancel),
                             new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog,
                                                     int id) {
@@ -363,19 +363,19 @@ public class HomeActivity extends BaseActivity {
                 break;
             case REQUEST_IMAGE_CODE:
                 if (resultCode != RESULT_OK) {
-                    EventBus.getDefault().post(new SelectPicSuccessEvent(SelectPicSuccessEvent.SelectStatus.SELECT_FAILED,null));
+                    EventBus.getDefault().post(new SelectPicSuccessEvent(SelectPicSuccessEvent.SelectStatus.SELECT_FAILED, null));
                     return;
                 }
 
                 Uri originalUri = data.getData();
                 String path = null;
                 Cursor cursor = getContentResolver().query(originalUri, null, null, null, null);
-                if(cursor.moveToFirst()){
+                if (cursor.moveToFirst()) {
                     path = cursor.getString(1);
-                    Log.e("path",""+path);
+                    Log.e("path", "" + path);
                 }
                 cursor.close();
-                EventBus.getDefault().post(new SelectPicSuccessEvent(SelectPicSuccessEvent.SelectStatus.SELECT_SUCCESS,path));
+                EventBus.getDefault().post(new SelectPicSuccessEvent(SelectPicSuccessEvent.SelectStatus.SELECT_SUCCESS, path));
                 break;
         }
     }
@@ -386,7 +386,6 @@ public class HomeActivity extends BaseActivity {
         Log.e("________", "--------------------");
         initIntent(intent);
     }
-
 
 
     private void initIntent(Intent intent) {

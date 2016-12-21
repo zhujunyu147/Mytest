@@ -8,6 +8,10 @@
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/drawable-xhdpi/refresh_succeed.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-xhdpi/refresh_succeed.png"
+    },
+    {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/drawable-xhdpi/refresh_succeed.png",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-xhdpi/refresh_succeed.png"
     },
@@ -22,5 +26,25 @@
     {
         "merged": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/res/merged/release/drawable-xhdpi/add.png",
         "source": "/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/res/drawable-xhdpi/add.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/drawable-xhdpi/top_background.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-xhdpi/top_background.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_launcher.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/drawable-xhdpi/add.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-xhdpi/add.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/drawable-xhdpi/icon_kehu_arrow.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-xhdpi/icon_kehu_arrow.png"
+    },
+    {
+        "merged": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/res/merged/release/drawable-xhdpi/load_succeed.png",
+        "source": "/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/res/drawable-xhdpi/load_succeed.png"
     }
 ]

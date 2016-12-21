@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/main/jniLibs"/></dataSet><dataSet config="release"><source path="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/src/release/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/main/jniLibs"/></dataSet><dataSet config="release"><source path="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/src/release/jniLibs"/></dataSet></merger>

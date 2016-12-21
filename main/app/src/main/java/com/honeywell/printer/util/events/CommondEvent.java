@@ -26,6 +26,8 @@ public class CommondEvent extends PrinterEvent{
        PIC_PRINTE_FAILED,
        PRINT_CONFIG_SUCCESS,
        PRINT_CONFIG_FAILED,
+       PRINT_WIFI_CONFIG_SUCCESS,
+       PRINT_WIFI_CONFIG_FAILED,
        MEDIUM_CHECK_SUCCESS,
        MEDIUM_CHECK_FAILED
     }
@@ -40,6 +42,7 @@ public class CommondEvent extends PrinterEvent{
         UPLOAD_CONFIG_COMMOND,
         PIC_PRINTER,
         PRINT_CONFIG,
+        PRINT_WIFI_CONFIG,
         MEDIUM_CHECK
     }
 

@@ -39,7 +39,7 @@ public class LogcatFileManager {
         File folder = new File(folderPath);
         if (!folder.exists()) {
           boolean ism =  folder.mkdirs();
-            Log.e("&&&&&&&&&&&&&","ism:"+ism);
+            Log.e("&&&&&&2&&&&&&&","ism:"+ism);
         }
 
         if (!folder.isDirectory()){

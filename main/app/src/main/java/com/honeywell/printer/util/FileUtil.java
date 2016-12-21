@@ -34,7 +34,7 @@ public class FileUtil {
         File folder = new File(folderPath);
         if (!folder.exists()) {
             boolean ism = folder.mkdirs();
-            Log.e("&&&&&&&&&&&&&", "ism:" + ism);
+            Log.e("&&&&&&1&&&&&&&", "ism:" + ism);
         }
         if (!folder.isDirectory()) {
             Toast.makeText(context, "文件目录错误", Toast.LENGTH_SHORT).show();

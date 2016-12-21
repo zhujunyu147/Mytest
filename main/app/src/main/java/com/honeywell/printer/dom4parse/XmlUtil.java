@@ -291,6 +291,24 @@ public class XmlUtil {
         });
     }
 
+    public static void printWifiConfig(final Context context, final CommondEvent.CommondExcuter excuter) {
+
+        String message = "<DevInfo Action=\"Testlabel\"><Label>hw_wifisetting</Label></DevInfo>\n";
+        ParseXml parseXml = new ParseXml(context, ParseXml.RequestType.REQUEST_SYSTEMINFO, message);
+        parseXml.sendMessage(new ParseXml.Response() {
+            @Override
+            public void success(Element element) {
+                EventBus.getDefault().post(new CommondEvent(CommondEvent.CommondExcudeState.PRINT_CONFIG_SUCCESS, excuter));
+                endConnect(context, excuter);
+            }
+
+            @Override
+            public void failed() {
+                EventBus.getDefault().post(new CommondEvent(CommondEvent.CommondExcudeState.PRINT_CONFIG_FAILED, excuter));
+            }
+        });
+    }
+
     public static void mediumCheck(final Context context, final CommondEvent.CommondExcuter excuter) {
 
         String message = "<DevInfo Action=\"Testfeed\"></DevInfo>\n";

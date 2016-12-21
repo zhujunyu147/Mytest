@@ -3,12 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/libs/nineoldandroids-2.4.0.jar"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/libs/nineoldandroids-2.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="a43cf9e271b5bc564e880a0a4be63ab9c69c97f8">
-        <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0_6f78322e37869144fa26623fd1db113d8e5daeb5.jar" />
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0_68b23c0f3d2445535bbe1ade9c1348a9298cd877.jar" />
     </item>
     <item
         is-multidex="false"
@@ -21,12 +21,201 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_762f40dc92429471ff09dc7cd270ac7bdfd69e88.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/zhujunyu/.gradle/caches/modules-2/files-2.1/org.dom4j/dom4j/2.0.0/611a5a9bc92c5088b4565c3545fbeab803458d12/dom4j-2.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="611a5a9bc92c5088b4565c3545fbeab803458d12">
         <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/dom4j-2.0.0_e5e26100071a82c4dadd70dbb443fce6e5648fd6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_fdb4bf8c42a273abc13d0536e3593b4e29a11b1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_1942dc73f626025b2979035a2a49b08b3ceb14c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_f660b122a1d32959e064ce782f35c8fe43138987.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_d26336a670b179fb5d4d170b8725794d3888b391.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_3fe285f71bbe66e27faf54fb914f292b2ed7311a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_8e2bc039cb969e7e8af719116e958f426774733b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_879222e69b9314b0afed507a0f7a66100067100f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/libs/autobahn-0.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5f62bc6117f905fd37955f6e2ebd3aad68701b60">
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/autobahn-0.5.0_a62a689adca2b4d79fe0d8fca24f334072f8ecc4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/commonnet/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fff0fa47b194cf68f25acedb4c58fe24a1c39f4c">
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/main-commonnet-unspecified_4eee78cdbaea393607a01793baa3e1e161d58247.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_9b581f5f7aa712b502a0fe75fc30130fa1f2275a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0_5dbe747c9f660fb6930e24a1ca7fecd08b65be14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_506650609ac825c1500e9bf287bbec61c2f19bc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/main/qrcode/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="482150ab82c4128c2f207f3f4ee9192b71634d54">
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/main-qrcode-unspecified_40de37573ae67ad0114e745fef4fdde77221ec10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_0bc4e6709703797f75569d8324d1650621396269.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_5a33561969127a88d4143aeac57ff1fc5ca415ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_4a6405726f1d801149321a649e591f18fe058cfd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_45c2e48b350c27e83ca5d4ba1ffaac9e32ede853.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_994fd79052b47803d225fa4a6d3b5c99650be66a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a43cf9e271b5bc564e880a0a4be63ab9c69c97f8">
+        <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0_6f78322e37869144fa26623fd1db113d8e5daeb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_ba642adc3408915d35814ff6af97572925334639.jar" />
     </item>
     <item
         is-multidex="false"
@@ -57,6 +246,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_3451a0263ddc1ebc97366beb219f7bc8c3c0bbdd.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -66,39 +264,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_fdb4bf8c42a273abc13d0536e3593b4e29a11b1e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_8e2bc039cb969e7e8af719116e958f426774733b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_879222e69b9314b0afed507a0f7a66100067100f.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/libs/autobahn-0.5.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="5f62bc6117f905fd37955f6e2ebd3aad68701b60">
         <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/autobahn-0.5.0_7adbeaba38b0a39c75780b0dbace855c4cb2ca2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_b373d54ed2231731291334faa1987ab649881e6e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -138,12 +318,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_9b581f5f7aa712b502a0fe75fc30130fa1f2275a.jar" />
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_9650c75480e86ccfdb30ad70f41af10941683aa6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_941598e9d18851d9ba125277ac2aa35a62503930.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_95c69ef842b526434984730e0be57b43e66d0138.jar" />
     </item>
     <item
         is-multidex="false"
@@ -156,24 +354,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/zhujunyu/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
-        <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0_5dbe747c9f660fb6930e24a1ca7fecd08b65be14.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_0bc4e6709703797f75569d8324d1650621396269.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/main/commonnet/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -183,12 +363,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/libs/android_api_3.7.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_4a6405726f1d801149321a649e591f18fe058cfd.jar" />
+        sha1="47f758260b0a497bd9f5263233a823ec316e515f">
+        <dex dex="/Users/zhujunyu/Downloads/Printer/Mytest/main/app/build/intermediates/pre-dexed/debug/android_api_3.7.0_e08d12cdd775d628a497615ddd023ca8f7c617d3.jar" />
     </item>
     <item
         is-multidex="false"
@@ -207,15 +387,6 @@
         revision="23.0.2"
         sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
         <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_923c188535b4e9e07686bfce3489ca60bbf4cfe4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/Users/zhujunyu/Documents/文稿归档/workspace/IM/main/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_45c2e48b350c27e83ca5d4ba1ffaac9e32ede853.jar" />
     </item>
 
 </items>

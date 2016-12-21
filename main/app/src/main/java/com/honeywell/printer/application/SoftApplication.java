@@ -49,12 +49,13 @@ public class SoftApplication extends Application {
         String folderPath = null;
         if (Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {// save in SD card first
             folderPath = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "BDT-Logcat";
+            Log.e("************1**********", "folderPath:" + folderPath);
         } else {// If the SD card does not exist, save in the directory of application.
 
             folderPath = this.getFilesDir().getAbsolutePath() + File.separator + "BDT-Logcat";
+            Log.e("***********2***********", "folderPath:" + folderPath);
         }
         Toast.makeText(applicationContext, "log存储的地址:" + folderPath, Toast.LENGTH_SHORT).show();
-        Log.e("**********************", "folderPath:" + folderPath);
         LogcatFileManager.getInstance().start(folderPath);
     }
 

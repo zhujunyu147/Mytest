@@ -5,6 +5,7 @@ import android.util.Log;
 
 import com.honeywell.printer.model.BaseItem;
 import com.honeywell.printer.util.FileUtil;
+import com.honeywell.printer.util.events.CommondEvent;
 import com.honeywell.printer.util.events.CommondWifiEvent;
 import com.honeywell.printer.util.events.PrinterWifiDateEvent;
 
@@ -289,7 +290,23 @@ public class XmlWifiUtil {
             }
         });
     }
+    public static void printWifiConfig(final Context context, final CommondWifiEvent.CommondExcuter excuter) {
 
+        String message = "<DevInfo Action=\"Testlabel\"><Label>hw_wifisetting</Label></DevInfo>\n";
+        ParseWifiXml parseXml = new ParseWifiXml(context, ParseXml.RequestType.REQUEST_SYSTEMINFO, message);
+        parseXml.sendMessage(new ParseWifiXml.Response() {
+            @Override
+            public void success(Element element) {
+                EventBus.getDefault().post(new CommondWifiEvent(CommondWifiEvent.CommondExcudeState.PRINT_WIFI_CONFIG_SUCCESS, excuter));
+                endConnect(context, excuter);
+            }
+
+            @Override
+            public void failed() {
+                EventBus.getDefault().post(new CommondWifiEvent(CommondWifiEvent.CommondExcudeState.PRINT_WIFI_CONFIG_FAILED, excuter));
+            }
+        });
+    }
     public static void mediumCheck(final Context context, final CommondWifiEvent.CommondExcuter excuter) {
 
         String message = "<DevInfo Action=\"Testfeed\"></DevInfo>\n";

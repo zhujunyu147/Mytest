@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
@@ -20,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/tab_layout_default_height"
-            android:text="当前没有连接设备，请点击扫描连接"
+            android:text="@string/bluetooth_scan_tip"
             android:textColor="@color/red" />
 
         <Button
@@ -31,7 +30,7 @@
             android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginTop="@dimen/indicator_marginleft"
             android:background="@color/blue_bg"
-            android:text="连接"
+            android:text="@string/bluetooth_link"
             android:textColor="@color/white" />
 
         <TextView
@@ -39,7 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/tab_layout_default_height"
-            android:text="连接过的打印机设备"
+            android:text="@string/bluetooth_linked_device"
             android:textColor="@color/black" />
 
         <ListView
@@ -61,7 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/tab_layout_default_height"
-            android:text="扫描成功"
+            android:text="@string/scan_success"
             android:textColor="@color/black" />
 
 
@@ -74,9 +73,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/tab_layout_default_height"
-                android:text="设备的Mac地址："
+                android:text="@string/bluetooth_address"
                 android:textSize="15dp"
                 android:textColor="@color/black" />
 
@@ -84,7 +82,6 @@
                 android:id="@+id/device_mac"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/activity_vertical_margin"
                 android:layout_marginTop="@dimen/tab_layout_default_height"
                 android:text="XX:XX:XX:XX"
                 android:textColor="@color/lightskyblue"
@@ -96,7 +93,7 @@
                 android:textColor="@color/black"
                 android:textSize="15dp"
                 android:layout_height="wrap_content"
-                android:text="点击上面的地址进行连接" />
+                android:text="@string/bluetooth_onclick_link" />
 
         </LinearLayout>
 
@@ -116,7 +113,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/tab_layout_default_height"
-            android:text="连接中。。。"
+            android:text="@string/bt_link"
             android:textColor="@color/black" />
 
         <Button
@@ -127,7 +124,7 @@
             android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginTop="@dimen/indicator_marginleft"
             android:background="@color/blue_bg"
-            android:text="正在连接。。。"
+            android:text="@string/bt_link_now"
             android:textColor="@color/white" />
     </LinearLayout>
 
@@ -146,8 +143,10 @@
                 android:id="@+id/text_link_success"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/tab_layout_default_height"
-                android:text="连接成功，可以如下操作"
+                android:text="@string/bt_link_success"
                 android:textColor="@color/black" />
 
             <Button
@@ -158,7 +157,7 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/indicator_marginleft"
                 android:background="@color/blue_bg"
-                android:text="查看系统信息"
+                android:text="@string/bt_scan_system_info"
                 android:textColor="@color/white" />
 
             <Button
@@ -169,7 +168,7 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/indicator_marginleft"
                 android:background="@color/blue_bg"
-                android:text="参数查询"
+                android:text="@string/bt_scan_config"
                 android:textColor="@color/white" />
 
             <Button
@@ -180,7 +179,7 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/indicator_marginleft"
                 android:background="@color/blue_bg"
-                android:text="参数设置"
+                android:text="@string/bt_set_config"
                 android:textColor="@color/white"
                 android:visibility="gone" />
 
@@ -192,7 +191,7 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/indicator_marginleft"
                 android:background="@color/blue_bg"
-                android:text="一键复位"
+                android:text="@string/bt_one_key_reset"
                 android:textColor="@color/white" />
 
             <Button
@@ -203,7 +202,7 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/indicator_marginleft"
                 android:background="@color/blue_bg"
-                android:text="配置信息保存"
+                android:text="@string/bt_save_config"
                 android:textColor="@color/white" />
 
             <Button
@@ -214,7 +213,7 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/indicator_marginleft"
                 android:background="@color/blue_bg"
-                android:text="配置信息加载"
+                android:text="@string/bt_load_config"
                 android:textColor="@color/white" />
 
             <Button
@@ -225,7 +224,7 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/indicator_marginleft"
                 android:background="@color/blue_bg"
-                android:text="图片的打印"
+                android:text="@string/bt_print_pic"
                 android:textColor="@color/white" />
             <Button
                 android:id="@+id/btn_print_defalt_pic"
@@ -235,7 +234,17 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/indicator_marginleft"
                 android:background="@color/blue_bg"
-                android:text="打印配置页"
+                android:text="@string/bt_print_config"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/btn_print_wifi_config"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/indicator_marginleft"
+                android:background="@color/blue_bg"
+                android:text="@string/bt_print_wifi_config"
                 android:textColor="@color/white" />
             <Button
                 android:id="@+id/btn_print_Medium_check"
@@ -245,7 +254,7 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/indicator_marginleft"
                 android:background="@color/blue_bg"
-                android:text="介质检查"
+                android:text="@string/bt_medium_check"
                 android:textColor="@color/white" />
 
         </LinearLayout>

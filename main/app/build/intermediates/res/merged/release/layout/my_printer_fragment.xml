@@ -238,6 +238,16 @@
                 android:text="打印配置页"
                 android:textColor="@color/white" />
             <Button
+                android:id="@+id/btn_print_wifi_config"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/indicator_marginleft"
+                android:background="@color/blue_bg"
+                android:text="打印无线配置页"
+                android:textColor="@color/white" />
+            <Button
                 android:id="@+id/btn_print_Medium_check"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

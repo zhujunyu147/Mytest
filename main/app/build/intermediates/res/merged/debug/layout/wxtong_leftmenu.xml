@@ -32,7 +32,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:text="honeywell"
+                android:text="@string/drag_item_hw"
                 android:textColor="#ffffff"
                 android:textSize="18sp" />
 
@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:textColor="#ffffff"
-                android:text="honeywell 打印机"
+                android:text="@string/drag_item_hw_printer"
                 android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>
